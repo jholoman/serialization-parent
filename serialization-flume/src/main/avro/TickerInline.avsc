@@ -1,0 +1,10 @@
+{
+  "type":"record",
+  "name":"TickerInline",
+  "namespace":"com.cloudera.se.avro",
+  "fields":[
+    {"name":"payload","type":["null", "string"],"default":null},
+    {"name":"source","type":["null","string"],"default":null},
+    {"name":"localTimestamp","type":["null","long"],"default":null}
+]
+ }
